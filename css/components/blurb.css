@@ -1,0 +1,27 @@
+.blurb {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+
+	margin: 2rem 0rem;
+}
+
+.blurb img {
+	width: 8rem;
+	margin-right: 2rem;
+}
+
+.blurb h3 {
+	text-align: left;
+	margin: 0rem;
+}
+
+.blurb .heading p {
+	margin: 0rem;
+	font-style: italic;
+}
+
+.blurb .body {
+	width: 100%;
+	margin-top: 1rem;
+}

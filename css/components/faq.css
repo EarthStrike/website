@@ -1,0 +1,28 @@
+.faq {
+	margin: 2rem 0rem;
+}
+
+.faq > li {
+	text-align: left;
+	list-style: none;
+	padding: 1rem 1.5rem;
+}
+
+.faq > li:nth-child(odd) {
+	background-color: #1a1a1a;
+}
+
+.faq > li:nth-child(even) {
+	background-color: #222222;
+}
+
+.faq__question {
+	font-size: 20px;
+	font-style: italic;
+}
+
+.faq__answer {
+	max-height: 0px;
+	overflow: hidden;
+	transition: max-height 0.5s ease;
+}

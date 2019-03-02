@@ -1,0 +1,8 @@
+.profile p {
+	text-align: center;
+}
+
+.profile img {
+	display: block;
+	margin: 2rem auto;
+}

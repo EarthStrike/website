@@ -1,0 +1,18 @@
+section#footer {
+	background-color: black;
+	padding-bottom: 0;
+}
+
+section#footer .columns {
+	display: flex;
+	width: 100%;
+	padding: 2rem 0rem;
+}
+
+section#footer .columns div {
+	width: 50%;
+}
+
+section#footer ul#social-media a {
+	justify-content: center;
+}

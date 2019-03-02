@@ -1,0 +1,112 @@
+.calendar-date {
+	display: flex;
+	align-items: center;
+
+	margin: 3rem 0rem;
+}
+
+.calendar-date time {
+	min-width: 16rem;
+	max-width: 16rem;
+	height: 16rem;
+
+	background-image: url(../../images/svg/calendar-page.svg);
+	background-repeat: no-repeat;
+	background-size: 16rem 16rem;
+
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+
+	font-family: 'Passion One', sans-serif;
+	line-height: 0.75;
+	text-transform: uppercase;
+}
+
+.calendar-date time #month {
+	font-size: 3rem;
+	margin-top: 3.5rem;
+}
+
+.calendar-date time #day {
+	font-size: 7rem;
+	margin: 0.5rem 0rem;
+}
+
+.calendar-date__info {
+	height: 16rem;
+}
+
+.calendar-date__info h3, .calendar-date__info p {
+	text-align: inherit;
+}
+
+.calendar-date__info h3 {
+	margin-top: 5rem;
+}
+
+
+
+.calendar-date:nth-child(odd) {
+	flex-flow: row;
+}
+
+.calendar-date:nth-child(even) {
+	flex-flow: row-reverse;
+}
+
+.calendar-date:nth-child(odd) time {
+	margin-right: 3rem;
+}
+
+.calendar-date:nth-child(even) time {
+	margin-left: 3rem;
+}
+
+.calendar-date:nth-child(odd) .calendar-date__info {
+	text-align: left;
+}
+
+.calendar-date:nth-child(even) .calendar-date__info {
+	text-align: right;
+}
+
+
+
+.calendar-date.calendar-date--large {
+	flex-flow: column;
+}
+
+.calendar-date.calendar-date--large time {
+	min-width: 24rem;
+	max-width: 24rem;
+	height: 24rem;
+	background-size: 24rem 24rem;
+	margin: 3rem 0rem;
+}
+
+.calendar-date.calendar-date--large time #month {
+	font-size: 4.5rem;
+	margin-top: 5.25rem;
+}
+
+.calendar-date.calendar-date--large time #day {
+	font-size: 10.5rem;
+	margin: 0.5rem 0rem;
+}
+
+.calendar-date.calendar-date--large .calendar-date__info {
+	height: auto;
+	text-align: center;
+}
+
+.calendar-date.calendar-date--large .calendar-date__info h3 {
+	font-size: 6rem;
+	margin: 1rem 0rem;
+	text-transform: uppercase;
+}
+
+.calendar-date.calendar-date--large .calendar-date__info p {
+	font-size: 25px;
+}

@@ -1,0 +1,19 @@
+.endorsement {
+	display: flex;
+	align-items: center;
+
+	margin: 2rem 0rem;
+}
+
+.endorsement img {
+	width: 24rem;
+	margin-right: 4rem;
+}
+
+.endorsement .text {
+	width: 32rem;
+}
+
+.endorsement .text h3 {
+	text-align: left;
+}

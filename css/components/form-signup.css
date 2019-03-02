@@ -1,0 +1,78 @@
+form#signup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+	form#signup { flex-flow: column; }
+}
+
+form#signup select {
+	width: 20rem;
+	margin: 1rem 1.5rem;
+
+	font-family: 'Fira Sans', 'Franklin Gothic Book', 'Microsoft Sans Serif', sans-serif;
+	font-size: 20px;
+}
+
+form#signup select option {
+	font-family: 'Fira Sans', 'Franklin Gothic Book', 'Microsoft Sans Serif', sans-serif;
+	font-size: 20px;
+}
+
+#signup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 99998;
+	background-color: #000000 !important;
+	transition: all 0.5s ease;
+}
+
+#signup-overlay:not(.shown) {
+	opacity: 0;
+	pointer-events: none;
+}
+
+form#signup-details {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+form#signup-details h2 {
+	margin-bottom: 1.5rem;
+}
+
+form#signup-details > div {
+	height: 4rem;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+
+form#signup-details input[type='email'], form#signup-details input[type='text'] {
+	margin-bottom: 0.5rem;
+}
+
+form#signup-details input[type='checkbox'] {
+	width: 2rem;
+	height: 2rem;
+	margin-right: 1.5rem;
+}
+
+form#signup-details input[type='submit'] {
+	margin-top: 3rem;
+	margin-right: 0.5rem;
+	align-self: center;
+}
+
+form#signup-details input[name='cancel'] {
+	margin-top: 3rem;
+}

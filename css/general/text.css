@@ -1,0 +1,47 @@
+h1, h2, h3, h4 {
+	font-family: 'Passion One', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
+
+p {
+	font-family: 'Fira Sans', 'Franklin Gothic Book', 'Microsoft Sans Serif', sans-serif;
+	font-weight: normal;
+	text-align: left;
+}
+
+h1, h2 { line-height: 0.75; }
+h3, h4 { line-height: 1; }
+p { line-height: 1.2; }
+
+h1 { font-size: 8rem; margin: 1.5rem 0rem; }
+h2 { font-size: 5rem; margin: 1rem 0rem; }
+h3 { font-size: 3rem; margin: 1rem 0rem; }
+h4 { font-size: 2rem; margin: 1rem 0rem; }
+p { font-size: 20px; margin: 10px 0px; }
+
+@media only screen and (max-width: 767px) {
+	h1 { font-size: 5rem; }
+	h1.mobile-small { font-size: 3rem; }
+	h2 { font-size: 4rem; }
+	h2.mobile-small { font-size: 3rem; }
+	h3 { font-size: 3rem; }
+	h4 { font-size: 2rem; }
+}
+
+p strong { font-weight: bold; }
+
+ul li {
+	font-family: 'Fira Sans', 'Franklin Gothic Book', 'Microsoft Sans Serif', sans-serif;
+	list-style: none;
+}
+
+.text ul li p {
+	padding-left: 1rem;
+}
+
+.text ul li::before {
+	content: "\B7";
+	float: left;
+	font-size: 20px;
+}

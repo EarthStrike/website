@@ -1,0 +1,41 @@
+section#header {
+	padding: 1rem;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav a {
+	font-family: 'Passion One', sans-serif;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding: 0.5rem;
+	margin-right: -0.5rem;
+
+	display: flex;
+	align-items: center;
+
+	color: #387740;
+}
+
+nav a:not(:nth-child(1)):not(:nth-child(2))::before {
+	margin-right: 0.5rem;
+	content: "\B7";
+	font-size: 1rem;
+	color: #387740;
+}
+
+nav a#logo {
+	display: flex;
+	align-items: center;
+	margin-right: 3rem;
+
+	font-size: 3rem;
+}
+
+nav a#logo img {
+	width: 3rem;
+	margin-right: 1rem;
+}
