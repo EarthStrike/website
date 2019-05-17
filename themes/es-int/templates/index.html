@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+{% block content %}
+        <section id="top" class="hero fullscreen">
+            <div class="heading-rect heading-rect--large">
+                <h1>Earth Strike</h1>
+                <p>General Strike to Save the Planet<br />September 27, 2019</p>
+            </div>
+        </section>
+
+        <section id="signup" class="banner">
+            <div class="div-top"></div>
+
+            <h2>Join Us!</h2>
+            <form id="signup">
+                <p>Select your country:</p>
+                <select name="country">
+                    <option value="AF">Afghanistan</option>
+                    <!-- more countries -->
+                </select>
+                <input type="submit" value="OK" />
+            </form>
+
+            <div class="div-bottom"></div>
+        </section>
+        <section id="about">
+            <div class="corner-bg"></div>
+
+            <div class="heading-rect">
+                <h2>What is Earth Strike?</h2>
+                <p>We are a grassroots movement demanding immediate climate action from governments and corporations worldwide.</p>
+            </div>
+
+            <a class="button" href="about-us.html">More About Us</a>
+            <a class="button" href="mission.html">Our Global Mission & Demands</a>
+
+            <div class="text-rect">
+                <p>Since our inception in November 2018, we’ve racked up thousands of members in over sixty countries, along with endorsements from Extinction Rebellion UK, Noam Chomsky, David Graeber, and many other prominent organizations and activists.</p>
+            </div>
+
+            <a class="button" href="supporters.html">Our Partners & Supporters</a>
+
+            <div class="div-bottom"></div>
+        </section>
+
+        <section id="issue">
+            <div class="corner-bg"></div>
+
+            <div class="heading-rect">
+                <h2>The most important issue of our time</h2>
+                <p>We are headed for climate catastrophe.</p>
+            </div>
+
+            <div class="text-rect">
+                <p>Climatologists worldwide have shown beyond a doubt that Earth’s climate is changing, and human industry is responsible. Unless we take immediate action, this trend is slated to continue at an accelerating pace, leading us – every human and animal on the planet – to a state of climate catastrophe.</p>
+                <p><strong>The time to act is now, for the future of humanity.</strong></p>
+            </div>
+
+            <a class="button" href="briefing.html">More Information</a>
+        </section>
+
+        <section id="plan" class="banner">
+            <div class="div-top"></div>
+
+            <h2>Our plan</h2>
+            <h3>Our protests, scheduled throughout 2019, are raising awareness<br />for a <strong>GLOBAL GENERAL STRIKE</strong> beginning September 27.</h3>
+
+            <div class="div-bottom"></div>
+        </section>
+
+        <section id="schedule">
+            <h2>Our schedule:</h2>
+
+            <div>
+                <div class="calendar-date">
+                    <time datetime="2019-01-15"><span id="month">Jan</span> <span id="day">15</span></time>
+                    <div class="calendar-date__info">
+                        <h3>Earth Strike Kickoff Protest</h3>
+                        <p>Our first world-wide event will help local organizers engage their communities and kickstart our ground support.</p>
+                    </div>
+                </div>
+
+                <div class="calendar-date">
+                    <time datetime="2019-04-27"><span id="month">Apr</span> <span id="day">27</span></time>
+                    <div class="calendar-date__info">
+                        <h3>Halfway Earth Day Protest</h3>
+                        <p>On the weekend after Earth Day, organizers and protesters will use the build-up to May Day to form closer ties with local unions, who will be integral in building widespread support for the strike.</p>
+                    </div>
+                </div>
+
+                <div class="calendar-date">
+                    <time datetime="2019-08-01"><span id="month">Aug</span> <span id="day">1</span></time>
+                    <div class="calendar-date__info">
+                        <h3>Final Warning Protest</h3>
+                        <p>On the Earth Overshoot Day of 2019, we will hold one final protest before our strike, as a final wake-up call for those that have not yet joined us.</p>
+                    </div>
+                </div>
+
+                <div class="calendar-date calendar-date--large">
+                    <time datetime="2019-09-27"><span id="month">Sep</span> <span id="day">27</span></time>
+                    <div class="calendar-date__info">
+                        <h3>Earth Strike!</h3>
+                        <p>On the anniversary of Silent Spring, the book that kick-started the environmentalist movement, we begin our General Strike to Save the Planet!</p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="button button--large" href="get-involved">Get Involved!</a>
+
+            <div class="div-bottom"></div>
+        </section>
+
+        <section id="faq">
+            <div class="corner-bg"></div>
+
+            <div class="heading-rect">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <ul class="faq">
+                <li id="q1" class="expanded">
+                    <a href="#" class="faq__question">I want to get involved! Where should I start?</a>
+                    <div class="faq__answer text">
+                        <p>That's great! Check out our <a href="get-involved.html">Get Involved! page</a> for some first steps you can take.</p>
+                    </div>
+                </li>
+                <li id="q2">
+                    <a href="#" class="faq__question">How can I find my local campaign?</a>
+                    <div class="faq__answer text">
+                        <p>Head over to our <a href="map.html">Campaign Map</a> to see if Earth Strike is organizing in your area.</p>
+                    </div>
+                </li>
+                <li id="q3">
+                    <a href="#" class="faq__question">What if I need to work to survive?</a>
+                    <div class="faq__answer text">
+                        <p>It’s not our mission to moralize to the working class. There are many ways for you to work with us if you’re hesitant about striking.</p>
+                        <p>We recognize that everyone’s situation is different, and we have no shortage of sympathy for the perils of the poor and the middle class. A growing number of people are living paycheck to paycheck, and the power of organized labour is diminishing in many parts of the world. If you want to join us, but you’re worried that striking might not be within your means, here are some ideas:</p>
+                        <ul>
+                            <li><p>Contacting local unions! Depending on how draconian your city’s labour laws are, you might be able to receive financial support through other means while on strike.</p></li>
+                            <li><p>Work-to-rule! In many cases, those who can’t strike can still make a disruptive statement in their workplace by doing only the bare minimum required to follow their contract to the letter. This can cause slowdown, inefficiency, and bottlenecks in the workplace to a lesser but still significant extent. When you’re off the clock, you can refuse to check your email or do any extra tasks.</p></li>
+                            <li><p>Recruitment! If all else fails, focus your efforts on helping our movement grow. Show up to our protests, and spread the word amongst your friends and family. If you recruit, say, five new workers to our cause who are able to strike, then that’s a net gain for us!</p></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <a class="button" href="faq.html">More Questions</a>
+
+            <div class="div-bottom"></div>
+        </section>
+
+        <section id="contact">
+            <div class="corner-bg"></div>
+
+            <div class="heading-rect">
+                <h2>Contact Us</h2>
+                <p>Any more questions? Get in touch with our spokespeople!</p>
+            </div>
+
+            <ul class="profiles">
+                <li class="profile">
+                    <img src="images/svg/person.svg"></img>
+                    <h3>Ciro Wagner</h3>
+                    <p>International Spokesperson</p>
+                    <p><a href="mailto:info@earth-strike.com">info@earth-strike.com</a></p>
+                </li>
+            </ul>
+        </section>
+        <section id="content">
+        {% block content_title %}
+        <h2>All articles</h2>
+        {% endblock %}
+
+<ol id="post-list">
+{% for article in articles_page.object_list %}
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+                    <address class="vcard author">By
+                    {% for author in article.authors %}
+                        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                    {% endfor %}
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+        </article></li>
+{% endfor %}
+</ol><!-- /#posts-list -->
+{% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+{% endif %}
+
+</section><!-- /#content -->
+{% endblock content %}
