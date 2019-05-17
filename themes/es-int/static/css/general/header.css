@@ -2,40 +2,37 @@ section#header {
 	padding: 1rem;
 }
 
-nav {
+nav ul{
 	display: flex;
-	align-items: center;
+	flex-direction: row;
 }
 
-nav a {
+nav li {
 	font-family: 'Passion One', sans-serif;
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	padding: 0.5rem;
 	margin-right: -0.5rem;
 
-	display: flex;
-	align-items: center;
-
 	color: #387740;
 }
-
+/*
 nav a:not(:nth-child(1)):not(:nth-child(2))::before {
 	margin-right: 0.5rem;
 	content: "\B7";
 	font-size: 1rem;
 	color: #387740;
 }
-
-nav a#logo {
-	display: flex;
-	align-items: center;
+*/
+nav #logo {
 	margin-right: 3rem;
-
 	font-size: 3rem;
 }
 
-nav a#logo img {
-	width: 3rem;
+nav img#logo {
 	margin-right: 1rem;
+	max-width:100%;
+	max-height:100%;
+	width: 3rem;
+	object-fit: contain;
 }
