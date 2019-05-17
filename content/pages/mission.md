@@ -25,7 +25,7 @@ Date: 2019-05-17
 	</div>
 
 	<div class="text text-rect">
-		<p>Individual national campaigns, per our commitment to St. Paul’s principles of activism, may have additional demands. These demands are stated on their <a href="map">national pages</a>.</p>
+		<p>Individual national campaigns, per our commitment to the St. Paul principles of activism, may have additional demands. These demands are stated on their <a href="map">national pages</a>.</p>
 
 		<p>As citizens of this planet, we implore you to work with us, in the best interests of our species, to both mitigate and prepare for the effects of climate change. Spread our message, organize with your community, and take a stand for the future. <strong>The Earth shall go on strike!</strong></p>
 	</div>
