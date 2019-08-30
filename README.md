@@ -1,5 +1,10 @@
 # Earth Strike Website (WIP)
 
+# Preview/ live deployed demo
+
+https://earthstrike-no-wp.netlify.com/
+
+
 ## What is this?
 
 This is a partial static re-creation of our website. We're using this to help decide which CMS we want to switch to. Eventually, this will become our actual site, and this repository will be where all our work is done! hell yeah
