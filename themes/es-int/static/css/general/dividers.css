@@ -32,11 +32,11 @@ section:nth-child(even) .div-bottom {
 
 
 section:nth-child(even) .div-top--footer {
-	background-image: url(../../images/svg/div-footer-even.svg);
+	background-image: url(/theme/images/svg/div-footer-even.svg);
 	background-size: 100% 8rem;
 }
 
 section:nth-child(odd) .div-top--footer {
-	background-image: url(../../images/svg/div-footer-odd.svg);
+	background-image: url(/theme/images/svg/div-footer-odd.svg);
 	background-size: 100% 8rem;
 }
