@@ -1,6 +1,6 @@
 # Earth Strike Website (WIP)
 
-# Preview/ live deployed demo
+## Preview/ live deployed demo
 
 https://earthstrike-no-wp.netlify.com/
 
